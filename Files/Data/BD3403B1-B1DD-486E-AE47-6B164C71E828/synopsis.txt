@@ -1,0 +1,1 @@
+cd <scrivener project dir ; git add . #bad practice

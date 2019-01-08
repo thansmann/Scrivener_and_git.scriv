@@ -5,6 +5,13 @@
             <Title>touch files in empty dirs</Title>
             <Synopsis>find . -type d -empty | egrep -v '.git'</Synopsis>
         </Document>
+        <Document ID="C2ABC402-BDC9-4A12-9201-4523B1A9D1F2">
+            <Title>set upstream as the origin</Title>
+            <Synopsis>git remote add origin git@github.com:thansmann/Scrivener_and_git.scriv.git</Synopsis>
+        </Document>
+        <Document ID="7BE6DEB9-9707-4BBC-B19E-B05DEF55E13C">
+            <Title>close the Scrivener project</Title>
+        </Document>
         <Document ID="833DF1C1-C636-4034-9053-01C6641E9578">
             <Title>Contents</Title>
         </Document>
@@ -24,12 +31,22 @@
 Insert dedication here.</Text>
             <Notes>Feel free to delete this document if you don’t need it.</Notes>
         </Document>
+        <Document ID="9768CB64-E876-4DA9-BD84-8D9F462F8E87">
+            <Title>git add . </Title>
+            <Synopsis>Pick up any other changes</Synopsis>
+        </Document>
         <Document ID="562EC6D9-A7C5-4E3B-AB10-23FFCCF036E2">
             <Title>Set the origin in your new git repo</Title>
+        </Document>
+        <Document ID="856E6CC0-A1D1-485C-9983-28263DAAD31D">
+            <Title>git push </Title>
         </Document>
         <Document ID="2ACD25A5-DB02-475B-895F-7C633A52A1C9">
             <Title>do a git init in the scrivener dir</Title>
             <Synopsis>- Show how to find it in the menu</Synopsis>
+        </Document>
+        <Document ID="4F28431B-9B61-4D42-8AEC-1B3D7CEDF8B8">
+            <Title>git clone somewhere else</Title>
         </Document>
         <Document ID="6A2981D0-EE77-461E-BF97-D9ED0D27A5D2">
             <Title>Endnotes</Title>
@@ -73,6 +90,9 @@ The &lt;$PROJECTTITLE&gt; and &lt;$fullname&gt; tags get replaced with metadata 
 The &lt;$wc100&gt; words tag will be replaced with the word count rounded to the nearest 100 during Compile (this and other tags can be inserted from the Insert menu).
 
 Feel free to edit the text of the title page as required.</Notes>
+        </Document>
+        <Document ID="15B686B3-CF3E-4E2A-A98C-A091F00D5026">
+            <Title>Scrivener project open new location</Title>
         </Document>
         <Document ID="B0417A1B-D617-4CBD-900A-14A6AB12C289">
             <Title>Ideas</Title>
@@ -208,6 +228,10 @@ You can create your own templates by setting up a skeletal project with the file
         <Document ID="A097A466-32FF-491F-8E6B-6DCD12185DE1">
             <Title>Foreword</Title>
         </Document>
+        <Document ID="BD3403B1-B1DD-486E-AE47-6B164C71E828">
+            <Title>git add the whole project</Title>
+            <Synopsis>cd &lt;scrivener project dir ; git add . #bad practice</Synopsis>
+        </Document>
         <Document ID="3ECF6511-EC5A-4B9A-B12F-039C0CDD2CB7">
             <Title>Copyright</Title>
             <Text>
@@ -263,8 +287,31 @@ ISBN-13:
         <Document ID="E78416F7-6CAD-45C6-B590-FB0B875FDAE1">
             <Title>create a ssh-key</Title>
         </Document>
+        <Document ID="1BEAEDE9-99EF-445D-9E09-9C417A7623BF">
+            <Title>git push</Title>
+        </Document>
         <Document ID="606E2F6A-318D-44EA-A9BC-81093A72CD2F">
             <Title>Get a github account</Title>
+            <Text>find . -type d -empty | egrep -v '.git'
+./Settings/User
+./Files/Data/B0417A1B-D617-4CBD-900A-14A6AB12C289
+./Files/Data/07B0D7C6-57CE-4D6F-8AD9-11F06A261A5F
+./Files/Data/562EC6D9-A7C5-4E3B-AB10-23FFCCF036E2
+./Files/Data/A097A466-32FF-491F-8E6B-6DCD12185DE1
+./Files/Data/60D37027-5A0F-4CA1-BA8F-0F527FC7BB6D
+./Files/Data/BC0DC62B-D666-419C-A37C-870C3C678050
+./Files/Data/4DAE20E1-E8B4-402B-BA96-7067A8A89451
+./Files/Data/833DF1C1-C636-4034-9053-01C6641E9578
+./Files/Data/6C3BDCCC-F6C3-4AF9-B7CD-475616712EAE
+./Files/Data/E17E8BB7-8E12-4469-AFEE-ACD12A954D33
+./Files/Data/0778B444-3F1F-4924-83BA-B2AB7028AC3E
+./Files/Data/B3AD524C-010F-4A8B-BED7-09A8498D6DC8
+./Files/Data/CB0EEE35-84F6-4D12-9A81-6827BED783B8
+./Files/Data/606E2F6A-318D-44EA-A9BC-81093A72CD2F
+./Files/Data/3315DE60-B19C-4ECF-BFB7-72322EF732AC
+./Files/Data/9C47FE92-A3E7-4D4A-A856-E4CA8C558327
+./Files/Data/DC4E0574-937A-4D59-A331-071FE433DA96
+./Files/Data/E78416F7-6CAD-45C6-B590-FB0B875FDAE1</Text>
         </Document>
         <Document ID="96776348-B035-46DA-A5A5-210E99B93774">
             <Title>Front Matter</Title>
@@ -279,6 +326,7 @@ During Compile, documents assigned the “Front Matter” section type will be l
         </Document>
         <Document ID="B3AD524C-010F-4A8B-BED7-09A8498D6DC8">
             <Title>Get a git tutorial</Title>
+            <Text>I'm not sure if the empty dirs are a problem. Git likely won't pick them up</Text>
         </Document>
         <Document ID="B5BAD6CD-B8F5-469F-9D65-288D1D5001DD">
             <Title>Dedication</Title>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="7CCEBF7F-B7AB-4859-9D98-8B82A9E6DD93" Version="2.0" Creator="SCRMAC-3.1.1-9852" Device="Tonys-MacBook-Pro" Author="Tony Hansmann" Modified="2019-01-08 12:06:36 -0800" ModID="8D8E4DD5-8917-4CE2-829B-59F448FBE1AA">
+<ScrivenerProject Identifier="7CCEBF7F-B7AB-4859-9D98-8B82A9E6DD93" Version="2.0" Creator="SCRMAC-3.1.1-9852" Device="Tonys-MacBook-Pro" Author="Tony Hansmann" Modified="2019-01-08 12:25:20 -0800" ModID="3896C6C8-595E-4242-B680-944B8559BB02">
     <Binder>
         <BinderItem UUID="9FFBA333-8432-41C1-91F5-1302DFE283CA" Type="Text" Created="2019-01-08 11:35:54 -0800" Modified="2019-01-08 11:35:54 -0800">
             <Title>Non-Fiction Format</Title>
@@ -33,7 +33,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="606E2F6A-318D-44EA-A9BC-81093A72CD2F" Type="Text" Created="2019-01-08 11:35:54 -0800" Modified="2019-01-08 11:36:22 -0800">
+                        <BinderItem UUID="606E2F6A-318D-44EA-A9BC-81093A72CD2F" Type="Text" Created="2019-01-08 11:35:54 -0800" Modified="2019-01-08 12:15:24 -0800">
                             <Title>Get a github account</Title>
                             <MetaData>
                                 <StatusID>2</StatusID>
@@ -52,7 +52,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="B3AD524C-010F-4A8B-BED7-09A8498D6DC8" Type="Text" Created="2019-01-08 11:36:38 -0800" Modified="2019-01-08 11:36:49 -0800">
+                        <BinderItem UUID="B3AD524C-010F-4A8B-BED7-09A8498D6DC8" Type="Text" Created="2019-01-08 11:36:38 -0800" Modified="2019-01-08 12:15:57 -0800">
                             <Title>Get a git tutorial</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -88,6 +88,15 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
+                        <BinderItem UUID="A9E9E688-7949-47AC-A652-34600A86AAA7" Type="Text" Created="2019-01-08 12:03:27 -0800" Modified="2019-01-08 12:15:18 -0800">
+                            <Title>touch files in empty dirs</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
                         <BinderItem UUID="562EC6D9-A7C5-4E3B-AB10-23FFCCF036E2" Type="Text" Created="2019-01-08 12:06:03 -0800" Modified="2019-01-08 12:06:27 -0800">
                             <Title>Set the origin in your new git repo</Title>
                             <MetaData>
@@ -97,8 +106,71 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="A9E9E688-7949-47AC-A652-34600A86AAA7" Type="Text" Created="2019-01-08 12:03:27 -0800" Modified="2019-01-08 12:05:04 -0800">
-                            <Title>touch files in empty dirs</Title>
+                        <BinderItem UUID="BD3403B1-B1DD-486E-AE47-6B164C71E828" Type="Text" Created="2019-01-08 12:15:11 -0800" Modified="2019-01-08 12:21:55 -0800">
+                            <Title>git add the whole project</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C2ABC402-BDC9-4A12-9201-4523B1A9D1F2" Type="Text" Created="2019-01-08 12:15:01 -0800" Modified="2019-01-08 12:22:30 -0800">
+                            <Title>set upstream as the origin</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="1BEAEDE9-99EF-445D-9E09-9C417A7623BF" Type="Text" Created="2019-01-08 12:23:38 -0800" Modified="2019-01-08 12:23:50 -0800">
+                            <Title>git push</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="7BE6DEB9-9707-4BBC-B19E-B05DEF55E13C" Type="Text" Created="2019-01-08 12:23:50 -0800" Modified="2019-01-08 12:24:13 -0800">
+                            <Title>close the Scrivener project</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="9768CB64-E876-4DA9-BD84-8D9F462F8E87" Type="Text" Created="2019-01-08 12:24:13 -0800" Modified="2019-01-08 12:24:48 -0800">
+                            <Title>git add . </Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="856E6CC0-A1D1-485C-9983-28263DAAD31D" Type="Text" Created="2019-01-08 12:24:49 -0800" Modified="2019-01-08 12:24:59 -0800">
+                            <Title>git push </Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="4F28431B-9B61-4D42-8AEC-1B3D7CEDF8B8" Type="Text" Created="2019-01-08 12:24:59 -0800" Modified="2019-01-08 12:25:08 -0800">
+                            <Title>git clone somewhere else</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="15B686B3-CF3E-4E2A-A98C-A091F00D5026" Type="Text" Created="2019-01-08 12:25:08 -0800" Modified="2019-01-08 12:25:19 -0800">
+                            <Title>Scrivener project open new location</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -398,11 +470,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 05:24:39 -0700" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2019-01-08 11:35:52 -0800"></PreviousSession>
+        <PreviousSession Words="79" Characters="1030" Date="2019-01-08 11:35:52 -0800"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2019-01-08 11:35:54 -0800">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
+        <DraftWordCount>79</DraftWordCount>
+        <DraftCharCount>1030</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
