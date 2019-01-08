@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="606E2F6A-318D-44EA-A9BC-81093A72CD2F">
-            <Title>Get a github account</Title>
+        <Document ID="A9E9E688-7949-47AC-A652-34600A86AAA7">
+            <Title>touch files in empty dirs</Title>
+            <Synopsis>find . -type d -empty | egrep -v '.git'</Synopsis>
+        </Document>
+        <Document ID="833DF1C1-C636-4034-9053-01C6641E9578">
+            <Title>Contents</Title>
+        </Document>
+        <Document ID="3B425F17-6AEB-4983-8C67-5167CFE5B4E9">
+            <Title>Dedication</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+Insert dedication here.</Text>
+            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        </Document>
+        <Document ID="562EC6D9-A7C5-4E3B-AB10-23FFCCF036E2">
+            <Title>Set the origin in your new git repo</Title>
+        </Document>
+        <Document ID="2ACD25A5-DB02-475B-895F-7C633A52A1C9">
+            <Title>do a git init in the scrivener dir</Title>
+            <Synopsis>- Show how to find it in the menu</Synopsis>
         </Document>
         <Document ID="6A2981D0-EE77-461E-BF97-D9ED0D27A5D2">
             <Title>Endnotes</Title>
             <Text>&lt;$--ENDNOTES--&gt;</Text>
             <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
         </Document>
-        <Document ID="B3AD524C-010F-4A8B-BED7-09A8498D6DC8">
-            <Title>Get a git tutorial</Title>
-        </Document>
-        <Document ID="B0417A1B-D617-4CBD-900A-14A6AB12C289">
-            <Title>Ideas</Title>
-        </Document>
-        <Document ID="A097A466-32FF-491F-8E6B-6DCD12185DE1">
-            <Title>Foreword</Title>
-        </Document>
-        <Document ID="833DF1C1-C636-4034-9053-01C6641E9578">
-            <Title>Contents</Title>
+        <Document ID="3315DE60-B19C-4ECF-BFB7-72322EF732AC">
+            <Title>make a test scrivener test project, add a notecard</Title>
         </Document>
         <Document ID="BB360289-7F77-4AF1-A155-43057C51131A">
             <Title>Title Page</Title>
@@ -56,23 +74,8 @@ The &lt;$wc100&gt; words tag will be replaced with the word count rounded to the
 
 Feel free to edit the text of the title page as required.</Notes>
         </Document>
-        <Document ID="3D707F9E-6E7B-4A2B-BF04-64BD98EC07A8">
-            <Title>Notes</Title>
-            <Text>&lt;$--ENDNOTES--&gt;</Text>
-            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
-        </Document>
-        <Document ID="07B0D7C6-57CE-4D6F-8AD9-11F06A261A5F">
-            <Title>Notes</Title>
-        </Document>
-        <Document ID="B5BAD6CD-B8F5-469F-9D65-288D1D5001DD">
-            <Title>Dedication</Title>
-            <Text>
-
-
-
-
-Your dedication here.</Text>
-            <Notes>Feel free to delete this document if you don’t need it.</Notes>
+        <Document ID="B0417A1B-D617-4CBD-900A-14A6AB12C289">
+            <Title>Ideas</Title>
         </Document>
         <Document ID="9FFBA333-8432-41C1-91F5-1302DFE283CA">
             <Title>Non-Fiction Format</Title>
@@ -196,6 +199,15 @@ Like all templates in Scrivener, this project was originally created from the �
 
 You can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
         </Document>
+        <Document ID="CB0EEE35-84F6-4D12-9A81-6827BED783B8">
+            <Title>Paperback</Title>
+        </Document>
+        <Document ID="DC4E0574-937A-4D59-A331-071FE433DA96">
+            <Title>Make test github repo via the web interface</Title>
+        </Document>
+        <Document ID="A097A466-32FF-491F-8E6B-6DCD12185DE1">
+            <Title>Foreword</Title>
+        </Document>
         <Document ID="3ECF6511-EC5A-4B9A-B12F-039C0CDD2CB7">
             <Title>Copyright</Title>
             <Text>
@@ -222,6 +234,11 @@ ISBN-13:
 </Text>
             <Notes>Feel free to delete this document if you don’t need it, or edit it for your needs.</Notes>
         </Document>
+        <Document ID="3D707F9E-6E7B-4A2B-BF04-64BD98EC07A8">
+            <Title>Notes</Title>
+            <Text>&lt;$--ENDNOTES--&gt;</Text>
+            <Notes>The &lt;$--ENDNOTES--&gt; tag will be replaced by the footnotes during Compile. Using this tag allows us to have the footnotes inserted wherever we like, without having a separator placed above them.</Notes>
+        </Document>
         <Document ID="520C484F-808A-4651-B417-C1CF776CEA07">
             <Title>Title Page</Title>
             <Text>
@@ -240,27 +257,38 @@ ISBN-13:
 &lt;$author&gt;</Text>
             <Notes>These tags get replaced with the information set in the Metadata pane of Compile. Alternatively, you can simply replace this text altogether.</Notes>
         </Document>
-        <Document ID="3B425F17-6AEB-4983-8C67-5167CFE5B4E9">
+        <Document ID="60D37027-5A0F-4CA1-BA8F-0F527FC7BB6D">
+            <Title>Contents</Title>
+        </Document>
+        <Document ID="E78416F7-6CAD-45C6-B590-FB0B875FDAE1">
+            <Title>create a ssh-key</Title>
+        </Document>
+        <Document ID="606E2F6A-318D-44EA-A9BC-81093A72CD2F">
+            <Title>Get a github account</Title>
+        </Document>
+        <Document ID="96776348-B035-46DA-A5A5-210E99B93774">
+            <Title>Front Matter</Title>
+            <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
+
+This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
+
+During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
+        </Document>
+        <Document ID="07B0D7C6-57CE-4D6F-8AD9-11F06A261A5F">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="B3AD524C-010F-4A8B-BED7-09A8498D6DC8">
+            <Title>Get a git tutorial</Title>
+        </Document>
+        <Document ID="B5BAD6CD-B8F5-469F-9D65-288D1D5001DD">
             <Title>Dedication</Title>
             <Text>
 
 
 
 
-
-
-
-
-
-
-Insert dedication here.</Text>
+Your dedication here.</Text>
             <Notes>Feel free to delete this document if you don’t need it.</Notes>
-        </Document>
-        <Document ID="CB0EEE35-84F6-4D12-9A81-6827BED783B8">
-            <Title>Paperback</Title>
-        </Document>
-        <Document ID="60D37027-5A0F-4CA1-BA8F-0F527FC7BB6D">
-            <Title>Contents</Title>
         </Document>
         <Document ID="0EB16FF9-6C9D-4FA9-B47D-F8902B6AD165">
             <Text>Amy Nonomusse
@@ -306,17 +334,6 @@ Endnotes
 3. Note that if you require more advanced footnote and endnote layout, or if you require indexes, you should compile to RTF or Word format and open the generated file in your word processor of choice for a final pass.
 Nonomusse / NON-FICTION MS / 6
 </Text>
-        </Document>
-        <Document ID="E78416F7-6CAD-45C6-B590-FB0B875FDAE1">
-            <Title>create a ssh-key</Title>
-        </Document>
-        <Document ID="96776348-B035-46DA-A5A5-210E99B93774">
-            <Title>Front Matter</Title>
-            <Notes>Note that in the “Metadata” pane of the Inspector, under “Section Type”, the “Default Subdocument Type” is set to “Front Matter”. This setting causes all subdocuments of this folder to use the “Front Matter” section type by default (that is, when “Structure-Based” is selected as the section type).
-
-This saves us from having to manually assign the “Front Matter” section type for each document we place into this folder.
-
-During Compile, documents assigned the “Front Matter” section type will be laid out differently from documents in the main body of the manuscript.</Notes>
         </Document>
     </Documents>
 </SearchIndexes>

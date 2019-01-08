@@ -59,8 +59,8 @@
 	</array>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {223, 638}}</string>
-		<string>{{224, 0}, {891, 638}}</string>
+		<string>{{0, 0}, {223, 1359}}</string>
+		<string>{{224, 0}, {2336, 1359}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -128,8 +128,8 @@
 	<integer>0</integer>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {632, 608}}</string>
-		<string>{{633, 0}, {258, 608}}</string>
+		<string>{{0, 0}, {2077, 1329}}</string>
+		<string>{{2078, 0}, {258, 1329}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>258</real>
@@ -189,7 +189,7 @@
 	<key>mainDocumentEditor.textMode</key>
 	<integer>0</integer>
 	<key>mainWindowFrame</key>
-	<string>3 757 1115 660 0 0 2560 1417 </string>
+	<string>1440 36 2560 1381 1440 0 2560 1417 </string>
 	<key>projectStatsSheet</key>
 	<dict>
 		<key>excludeAnnots</key>
